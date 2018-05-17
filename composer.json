@@ -1,0 +1,24 @@
+{
+    "name": "girit/magento2-module-core",
+    "description": "Girit Interactive Core module for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [{
+        "name": "Pniel Cohen (Girit Interactive)",
+        "email": "pini@girit.biz",
+        "role": "Developer",
+        "homepage": "https://www.girit-tech.com/"
+    }],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Girit\\Core\\": ""
+        }
+    }
+}
